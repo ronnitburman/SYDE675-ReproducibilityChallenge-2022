@@ -9,7 +9,7 @@ The following report for final project (reproducibility challenge) for SYDE-675 
 What we aid to reproduce, inspired by the CVPR paper is substituting autoencoders for a classic machine learning technique, PCA, to reconstruct a 3D deformable object given a collection of a fixed view image under varying lighting condition. Common 3D reconstruction include shape from shading and photometric stereo. Shape from shading assumes a shading model such as Lambertian reflectance and reconstructs the surface by exploiting the non-uniform illumination. Constructing principal components for a single viewpoint under varying illuminations allows for creating a low-dimensional generative model to explain lighting variability.  Used on the same human face with different lighting conditions, the dominant eigenvectors do not reflect facial shape but lighting conditions. We are not using complex illumination for photometric properties.  Hallman et al. concluded that 5 eigenvectors would be sufficient to model frontal images under arbitrary illuminations. These linear subspaces correspond to frontal lighting, side lighting, lighting from above/below, extreme side lighting and lighting from a corner. 
 
 ### Code 
-The code for the original [Demo](https://github.com/elliottwu/unsup3d/blob/master/demo/demo.py) and [utils](https://github.com/elliottwu/unsup3d/blob/master/demo/utils.py) was reused from an implementation by [elliottwu] (https://github.com/elliottwu/unsup3d)
+The code for the original [Demo](https://github.com/elliottwu/unsup3d/blob/master/demo/demo.py) and [utils](https://github.com/elliottwu/unsup3d/blob/master/demo/utils.py) was reused from an implementation by [elliottwu](https://github.com/elliottwu/unsup3d)
 
  The code for the ML based techinque was reused from 
  
@@ -23,15 +23,19 @@ We used the pretrained weights provided in the open-source repo. The weights wer
 
 CelebA face dataset - click [here](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
 
-Yale Face Dataset for PCA [2] - click [here](http://vision.ucsd.edu/~leekc/ExtYaleDatabase/ExtYaleB.html)
+Synthetic face dataset generated using Basel Face Model - click [here](https://faces.dmi.unibas.ch/bfm/)
+
+Cat face dataset - click [here](https://academictorrents.com/details/c501571c29d16d7f41d159d699d0e7fb37092cbd)
+
+Synthetic car dataset generated from ShapeNet cars - click [here](https://shapenet.org/)
+
+
+For the implementation of the PCA technique we have used the following dataset
+
+Yale Face Dataset for PCA - click [here](http://vision.ucsd.edu/~leekc/ExtYaleDatabase/ExtYaleB.html)
 
 
 
-Content - Click [here](https://cocodataset.org/#home) to go to official COCO dataset website. 
-
-Style - Click [here](https://www.kaggle.com/antoinegruson/-wikiart-all-images-120k-link) to go to official Wiki-Art dataset on Kaggle.
-
-Pretrained weights - Click [here](https://drive.google.com/file/d/17h-Hd08n-f_5D8cDV08dpB_-W1cs5jbt/view?usp=sharing) to download pretrained-weights to run experiments
 
 ### Reference 
 1. Wu, S., Rupprecht, C., & Vedaldi, A. (2020). Unsupervised learning of probably symmetric deformable 3d objects from images in the wild. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 1-10).
