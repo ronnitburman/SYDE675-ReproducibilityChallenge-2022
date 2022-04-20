@@ -19,8 +19,13 @@ Listed code repositories are MIT-licensed as open-source for academic research.
 
 ### Dataset 
 
-We used the pretrained weights provided in the open-source repo. The weights were obtained by the author of the 
-AdaConv code using the following datasets. 
+We used the pretrained weights provided in the open-source repo. The weights were obtained by the author of the using the following datasets. 
+
+CelebA face dataset - click [here](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
+
+Yale Face Dataset for PCA [2] - click [here](http://vision.ucsd.edu/~leekc/ExtYaleDatabase/ExtYaleB.html)
+
+
 
 Content - Click [here](https://cocodataset.org/#home) to go to official COCO dataset website. 
 
@@ -30,3 +35,4 @@ Pretrained weights - Click [here](https://drive.google.com/file/d/17h-Hd08n-f_5D
 
 ### Reference 
 1. Wu, S., Rupprecht, C., & Vedaldi, A. (2020). Unsupervised learning of probably symmetric deformable 3d objects from images in the wild. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 1-10).
+2. "the Exteded Yale Face Database B" and reference Athinodoros Georghiades, Peter Belhumeur, and David Kriegman's paper, "From Few to Many: Illumination Cone Models for Face Recognition under Variable Lighting and Pose", PAMI, 2001,
