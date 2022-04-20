@@ -13,7 +13,7 @@ The code for the original [Demo](https://github.com/elliottwu/unsup3d/blob/maste
 
 Listed code repositories are MIT-licensed as open-source for academic research.
 
-For the original paper, we have uploaded a python notebook with the code to run demo for human_face using the pretrained model ([included here](https://drive.google.com/file/d/1-D4pIIcMQhc78DfbxdSQKhxdve-ZLh-0/view?usp=sharing)). 
+For the original paper, we have uploaded a python notebook (SYDE-675-FinalProject.ipynb) with the code to run demo for human_face using the pretrained model ([included here](https://drive.google.com/file/d/1-D4pIIcMQhc78DfbxdSQKhxdve-ZLh-0/view?usp=sharing)). 
 
 For testing the implementation using PCA we have attached the code PCA_Test.py
 
