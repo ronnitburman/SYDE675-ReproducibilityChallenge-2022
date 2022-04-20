@@ -13,7 +13,7 @@ The code for the original [Demo](https://github.com/elliottwu/unsup3d/blob/maste
 
 Listed code repositories are MIT-licensed as open-source for academic research.
 
- For testing the implementation using PCA we have attached the code PCA_Test.py
+For the original paper, we have uploaded a python notebook with the code to run demo for human_face using the pretrained model (included here). For testing the implementation using PCA we have attached the code PCA_Test.py
 
 
 ### Dataset 
